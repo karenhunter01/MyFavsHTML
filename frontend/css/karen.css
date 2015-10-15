@@ -1,0 +1,45 @@
+
+body {
+	font-size: large;
+	color: blue;
+		background-color: rgb(153, 255, 153);
+}
+
+aside#aside_myFavs {
+	display: inline;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+nav.geek {
+		background-color: orange;
+}
+
+div.geek {
+	column-count: 2;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+}
+
+div.favmix {
+	background-color: rgb(153, 255, 153);
+}
+
+section.listFav {
+	float: left;
+	background-color: rgb(153, 255, 153);
+}
+
+section.addFav {
+	/* position: relative; */
+	float: center;
+	background-color: rgb(153, 255, 153);
+}
+
+
+div#location {
+	float: none;
+/*	position: relative; */
+}	

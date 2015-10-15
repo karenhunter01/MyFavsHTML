@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="uts-8" />	
+		<title>Karen's Home Page</title>
+		<link rel="stylesheet" href="../css/karen.css" />
+		<script type="text/javascript" src="../scripts/karen.js"> 	</script>
+	</head>	
+	<body>
+	<header id="header"> </header>	
+
+
+	<nav class="geek">
+	<h1>Geek Sources</h1>
+	<div class="geek">
+		<a href="http://www.meetup.com/techlifecolumbus/events/" target="blank">The Meet Up /Columbus</a>
+ <br />
+		<a href="http://www.techrepublic.com" target="blank">Tech Republic</a> <br />
+		<a href="http://sdtimes.com" target="blank">Software Development Times</a> <br />
+		<a href="http://www.geekwire.com" target="blank">Geek Wire</a> <br />
+		<a href="http://www.mashable.com" target="blank">Mashable</a> <br />
+		<a href="https://www.udemy.com/javawebtut/?couponCode=Y8ALV3X2" target="blank">Learn JSP</a> <br />
+		</div>
+	</nav>
+
+<div class="favmix">
+<section class="listFav"> 
+<h1>List Favorite Web Sites?</h1>
+<input type="radio"  name="showFavs"  onchange="showHideById('aside_myFavs',true); loadFavs()" > 
+Yes</input>
+<input type="radio" id="radioFalse" name="showFavs"  onchange="showHideById('aside_myFavs',false)"> 
+No</input>
+<aside id="aside_myFavs">
+<h1>Favorite Sites</h1>
+<nav id="nav_myFavs">
+</nav>
+</aside>
+</section>
+
+<br />
+<section class="addFav">
+<h1>Add a Favorite Web Site?</h1>
+Title: <input type="text" id="txtTitle" maxlength="30" />
+Website Link: <input type="text" id="txtUrl" maxlength="500" />
+<button id="button" onclick="addFav()">Add</button> &nbsp; 
+<button id="button" onclick="clearTextField('id', 'txtTitle');clearTextField('id', 'txtUrl');">Clear</button>
+</section>
+</div>
+<br />
+
+<div id="location">
+<textarea id="txtLoc" readonly cols="50" rows="2"></textarea>
+<button id="locButton">Track Location</button>
+</div>
+
+<iframe src="http://www.w3schools.com" height="300" width="1000" sandbox=""></iframe>
+
+<footer>
+<br/>
+<br/>
+<br/>
+</footer>	
+	</body>
+</html>
