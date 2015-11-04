@@ -1,0 +1,26 @@
+body {
+ font-family: arial;
+ backgroud-color: #5F9EA0;
+}
+
+#txtareaRead {
+	border: 2px solid #6495ED; 
+	box-shadow: 10px 10px 5px;
+}
+
+#sectionWrite {
+  padding: 20px;
+}
+
+#txtareaWrite {
+	border: 1px solid black;
+}
+
+button {
+	background-color: blue;
+	color: white;
+}
+	#btnSend:hover {
+		background-color: BlueViolet;
+		color: white;
+	}
