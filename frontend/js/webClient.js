@@ -4,8 +4,8 @@ var txtWrite, txtRead;
 var wsconx;
 var clientName;
 var isConnected = false;
-var wsURL = "ws://localhost:80";
-//var wsURL = "ws://echo.websocket.org";
+//var wsURL = "ws://localhost:80";
+var wsURL = "ws://echo.websocket.org";
 
 window.onload = function () {
 	btnSend = document.getElementById("btnSend");

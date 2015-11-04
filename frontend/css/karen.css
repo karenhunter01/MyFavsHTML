@@ -2,7 +2,8 @@
 body {
 	font-size: large;
 	color: blue;
-		background-color: rgb(153, 255, 153);
+	background: linear-gradient( rgb(153, 255, 153), white);
+	
 }
 
 aside#aside_myFavs {
@@ -13,8 +14,19 @@ button:hover {
 	cursor: pointer;
 }
 
+div#flowers {
+	border: solid purple 3px;
+	height: 50px;
+}
+img#flowers {
+	position: left;
+	height: 50px;
+	width: 50px;
+	background-repeat: repeat;
+}
+
 nav.geek {
-		background-color: orange;
+		background: linear-gradient(orange, yellow);
 }
 
 div.geek {
@@ -23,23 +35,42 @@ div.geek {
 	-moz-column-count: 2;
 }
 
-div.favmix {
-	background-color: rgb(153, 255, 153);
-}
 
 section.listFav {
-	float: left;
-	background-color: rgb(153, 255, 153);
+	position: relative; 
+	float: right;
+	/* background-color: rgb(153, 255, 153); */
+	padding-top: 95px;
+	
 }
 
 section.addFav {
-	/* position: relative; */
-	float: center;
-	background-color: rgb(153, 255, 153);
+	padding-top: 10px;
+ position: relative; 
+	float: left;
+	/* background-color: rgb(153, 255, 153); */
+/*	background-position: 0% 0%; */
+	
 }
 
 
 div#location {
-	float: none;
+	float: left;
+	opacity: 1;
+	padding-top: 25px;
+	padding-bottom: 25px;
 /*	position: relative; */
 }	
+
+div#div_watchPosition {
+	position: relative;
+	float: right;
+	opacity: .6;
+	padding-top: 25px;
+	padding-bottom: 25px;
+/*	position: relative; */
+}	
+
+iframe {
+	background-color: white;
+}
