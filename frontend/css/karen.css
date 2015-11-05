@@ -3,8 +3,45 @@ body {
 	font-size: large;
 	color: blue;
 	background: linear-gradient( rgb(153, 255, 153), white);
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	
+	-moz-flex-direction: column;	
+	-webkit-flex-direction: column ;
+	flex-direction: column;
+}
+
+header#header {
+	-moz-flex: 10;
+	-webkit-flex: 10;
+	-o-flex: 10;
+	flex: 10;
+	text-align: center;
 	
 }
+
+nav.geek {
+		background: linear-gradient(orange, yellow);
+		align-content: center;
+		-moz-flex: 150 10 % auto;
+		-webkit-flex: 50;
+		flex: 50;
+		text-align: center;
+	
+}
+
+div.geek {
+	column-count: 2;
+	align-content: center;
+	-moz-flex: 150;
+	-webkit-flex: 50;
+	flex: 50;
+	-moz-justify-content: center;
+	justify-content: center;
+}
+
 
 aside#aside_myFavs {
 	display: inline;
@@ -15,26 +52,18 @@ button:hover {
 }
 
 div#flowers {
+	background-image: url("http://media1.santabanta.com/full1/Nature/Flowers/flowers-165a.jpg");
+	background-size: 50px 50px;
+	background-repeat: repeat-x;
 	border: solid purple 3px;
 	height: 50px;
 }
 img#flowers {
 	position: left;
 	height: 50px;
-	width: 50px;
+	width: 150px;
 	background-repeat: repeat;
 }
-
-nav.geek {
-		background: linear-gradient(orange, yellow);
-}
-
-div.geek {
-	column-count: 2;
-	-webkit-column-count: 2;
-	-moz-column-count: 2;
-}
-
 
 section.listFav {
 	position: relative; 
@@ -53,6 +82,9 @@ section.addFav {
 	
 }
 
+section.locationBlock {
+	margin: 25px 10px;  /* Vertical Horizontal */
+}
 
 div#location {
 	float: left;
@@ -65,12 +97,10 @@ div#location {
 div#div_watchPosition {
 	position: relative;
 	float: right;
-	opacity: .6;
+	opacity: 1;
 	padding-top: 25px;
 	padding-bottom: 25px;
 /*	position: relative; */
 }	
 
-iframe {
-	background-color: white;
-}
+
