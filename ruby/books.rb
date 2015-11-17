@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 class Books #{
 
 	#attr_accessor :author, :title
@@ -41,6 +43,20 @@ end #}
 
 
 class Romance_Books  < Books
+        def displayAuthor
+                "Romance Novel Author: #{@author_lname}, #{@author_fname}"
+        end
+
+        def displayTitle
+                "Romance Book Title: #{@title}"
+        end
+
+        def displayTitleAndAuthor
+                r1 = displayAuthor.to_s.chomp
+                r1 = r1.concat("; " + displayTitle.to_s).chomp
+                p r1
+        end
+
 end
 
 
@@ -51,5 +67,9 @@ rom1=Romance_Books.new
 rom1.author_fname="Linda"
 rom1.author_lname="Howard"
 rom1.title="Almost Home"
+#rom1.displayAuthor
 #rom1.displayTitleAndAuthor
-puts rom1.author_lname + ", " + rom1.author_fname + ": " + rom1.title
+rom1.displayTitleAndAuthor
+this_class = rom1.class
+this_superclass = #{this_class}.superclass
+puts  " rom1 Class is #{this_class} and superclass is #{this_superclass}"

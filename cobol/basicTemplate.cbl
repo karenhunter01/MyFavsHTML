@@ -6,7 +6,7 @@
 000030 Data Division.
 
 000050 Procedure Division.
-000055 Display "Hello Karen" Upon Console.
+000055     Display "Hello Karen" Upon Console.
 000060 Stop Run.
 
 
