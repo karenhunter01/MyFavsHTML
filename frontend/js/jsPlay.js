@@ -87,4 +87,21 @@ var c2 = new Cousin("Shirley","Chisham");
 var isFamily=(c2 instanceof Family);
 console.log("Is " + c2.fname + " an instanceof Family " + isFamily); // now is true
 
+////////////////////////////////////////////////////////
+// Making sure "this" is pointing to the correct object //
+var Person = function(fname) {
+	if ( this instanceof Person ) {
+		this.fname = fname;
+	}	
+	else {
+		console.log("Is this recursive?");
+		return new Person(fname);
+	}
+};
+console.log("\n\n");
+var p1 = new Person("Karen");
+var isPerson = (p1 instanceof Person);
+console.log("Is p1 and instanceof Person? " + isPerson);
+console.log("\n\n");
+
 
