@@ -37,6 +37,9 @@ No</input>
 </aside>
 </section>
 
+<div id="flowers"> </div>
+<br>
+
 <br />
 <section class="addFav">
 <h1>Add a Favorite Web Site?</h1>
@@ -46,14 +49,24 @@ Website Link: <input type="text" id="txtUrl" maxlength="500" />
 <button id="button" onclick="clearTextField('id', 'txtTitle');clearTextField('id', 'txtUrl');">Clear</button>
 </section>
 </div>
+<!-- End of class="favmix" -->
+
 <br />
 
+<section class="locationBlock">
 <div id="location">
 <textarea id="txtLoc" readonly cols="50" rows="2"></textarea>
 <button id="locButton">Track Location</button>
 </div>
 
-<iframe src="http://www.w3schools.com" height="300" width="1000" sandbox=""></iframe>
+<div id="div_watchPosition">
+<textarea id="txtareaWatchPos" rows="2" cols="50" readonly></textarea>
+<button id="wlocButton">Watch Position</button>
+</div>
+</section>
+
+<!--iframe src="http://www.w3schools.com" height="200" width="1050" sandbox=""></iframe -->
+
 
 <footer>
 <br/>
