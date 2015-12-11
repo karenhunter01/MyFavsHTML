@@ -1,0 +1,18 @@
+
+sudo apt-get install open-cobol
+ 
+check the cobol compiler:
+	whereis cobc
+
+Compile cobol program:
+  cobc -free -x -o helloworld-exe helloworld.cbl
+
+Where:
+	-free := use free source format
+
+	-x := build executable program
+
+	-o := place the output file into the specified FILE
+
+Execute:
+	./helloworld-exe 
