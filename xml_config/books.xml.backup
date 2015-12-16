@@ -1,0 +1,10 @@
+<my_favorite_books>
+  <books>
+    <book>
+	<author_first_name> </author_first_name>
+	<author_last_name> </author_last_name>
+	<title> </title>
+	<series> </series>
+    </book>
+  </books>
+</my_favorite_books>

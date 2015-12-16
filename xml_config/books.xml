@@ -1,0 +1,47 @@
+<my_favorite_books>
+  <books>
+    <book>
+	<author_first_name>Christine</author_first_name>
+	<author_last_name>Feehan</author_last_name>
+	<title>The Scarletti Curse</title>
+	<series></series>
+    </book>
+    <book>
+        <author_first_name>Christine</author_first_name>
+        <author_last_name>Feehan</author_last_name>
+        <title> </title>
+        <series>Sea Haven</series>
+    </book>
+    <book>
+        <author_first_name>Christine</author_first_name>
+        <author_last_name>Feehan</author_last_name>
+        <title>Cat's Lair</title>
+        <series>Leopard</series>
+    </book>
+    <book>
+        <author_first_name>Linda</author_first_name>
+        <author_last_name>Howard</author_last_name>
+        <title>Almost Forever</title>
+        <series> </series>
+    </book>
+    <book>
+        <author_first_name>Maya</author_first_name>
+        <author_last_name>Banks</author_last_name>
+        <title>Highlander Most Wanted </title>
+        <series> </series>
+    </book>
+    <book>
+        <author_first_name>Karen Marie</author_first_name>
+        <author_last_name>Moning</author_last_name>
+        <title>ShadowFever</title>
+        <series>Fever</series>
+    </book>
+    <book>
+        <author_first_name>E. L. </author_first_name>
+        <author_last_name>James </author_last_name>
+        <title>Grey</title>
+        <series>Fifty Shades</series>
+    </book>
+
+  </books>
+</my_favorite_books>
