@@ -1,7 +1,5 @@
-create database if not exists oam;
-show databases ;
-
-drop table books ;
+---database oam
+-- user karen
 
 Create table books (
 	id int unsigned not null auto_increment,
@@ -12,4 +10,3 @@ Create table books (
 	series varchar (200)
 );
 
-desc books;

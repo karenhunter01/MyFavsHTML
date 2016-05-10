@@ -1,0 +1,11 @@
+Look up martin
+	http service proxy for testing
+
+Carina / docker 
+	like Webspere/Weblogic -its a Web application
+	uses PostGresSQL, probably MySQL will work
+
+look up ScriptScribe
+
+	 
+

@@ -57,14 +57,17 @@ sub readBooks {
  for ( my $i = 0; $i < $booksNodeList->getLength; $i++ ) {
 	my $node = $booksNodeList->item($i);
 	foreach my $book ( $node->getElementsByTagName("book") ) {
+		print "Author Name: ";
 		print $book->getElementsByTagName("author_first_name")->item(0)->getFirstChild->getNodeValue, " ";
-		print $book->getElementsByTagName("author_last_name")->item(0)->getFirstChild->getNodeValue, ", ";
+		print $book->getElementsByTagName("author_last_name")->item(0)->getFirstChild->getNodeValue, "\t";
 
 		if ( defined $book->getElementsByTagName("title")->item(0)->getFirstChild ) {
-		 print $book->getElementsByTagName("title")->item(0)->getFirstChild->getNodeValue, " ";
+		 print "Title: ";
+		 print $book->getElementsByTagName("title")->item(0)->getFirstChild->getNodeValue, "\t";
 		}
 
 		if ( defined $book->getElementsByTagName("series")->item(0)->getFirstChild ) {
+		 print "Series: ";
 		 print $book->getElementsByTagName("series")->item(0)->getFirstChild->getNodeValue, " ";
 		}
 
